@@ -5,7 +5,7 @@ public class Orden {
     private final int idOrden;
     Producto productos[];
     private static int contadorOrdenes;
-    private static int contadorProductos;
+    private static int contadorProductos = 0;
     private static final int maxProductos = 10;
 
     //Constructor
@@ -39,6 +39,6 @@ public class Orden {
             System.out.println("Precio producto[" + i + "] -> " + productos[i].getPrecio());
 
         }
-        System.out.println("Total: "+ this.calcularTotal());
+        System.out.println("Total: " + this.calcularTotal());
     }
 }

@@ -9,7 +9,7 @@ public class Producto {
 
     //Constructor
     public Producto() {
-        this.idProducto= ++Producto.contadorProductos;
+        this.idProducto = ++Producto.contadorProductos;
     }
 
     public Producto(String nombre, double precio) {
@@ -26,7 +26,6 @@ public class Producto {
 //    public static void setIdProducto(int idProducto) {
 //        Producto.idProducto =  idProducto;
 //    }
-
     public String getNombre() {
         return nombre;
     }
@@ -43,7 +42,7 @@ public class Producto {
         this.precio = precio;
     }
 
-    public  int getContadorProductos() {
+    public int getContadorProductos() {
         return this.contadorProductos;
     }
 
